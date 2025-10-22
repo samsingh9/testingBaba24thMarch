@@ -13,5 +13,7 @@ public class BaseLibrary {
 		WebDriver driver = new ChromeDriver();	
 		driver.get("https://testingbaba.com/old/");
 		driver.manage().window().maximize();
+		
+		System.out.println("Application Url is successfully launching");
 	}
 }
